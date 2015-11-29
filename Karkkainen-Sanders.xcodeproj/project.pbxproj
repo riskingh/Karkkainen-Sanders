@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50C6E3451C0AF7C900333F1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50C6E3441C0AF7C900333F1C /* main.cpp */; };
+		50C6E34F1C0AF9E600333F1C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50C6E34E1C0AF9E600333F1C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		50C6E3411C0AF7C900333F1C /* Karkkainen-Sanders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Karkkainen-Sanders"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C6E3441C0AF7C900333F1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		50C6E34C1C0AF84800333F1C /* KarkkainenSanders.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KarkkainenSanders.hpp; sourceTree = "<group>"; };
+		50C6E34E1C0AF9E600333F1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				50C6E34C1C0AF84800333F1C /* KarkkainenSanders.hpp */,
+				50C6E34E1C0AF9E600333F1C /* README.md */,
 				50C6E3431C0AF7C900333F1C /* Karkkainen-Sanders */,
 				50C6E3421C0AF7C900333F1C /* Products */,
 			);
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C6E34F1C0AF9E600333F1C /* README.md in Sources */,
 				50C6E3451C0AF7C900333F1C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

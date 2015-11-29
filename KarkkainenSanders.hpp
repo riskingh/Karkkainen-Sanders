@@ -10,5 +10,16 @@
 #define KarkkainenSanders_hpp
 
 #include <stdio.h>
+#include <vector>
+#include <string>
+
+typedef int int32;
+typedef long long int64;
+typedef unsigned int uint32;
+typedef unsigned long long uint64;
+
+std::vector<uint32> getSuffixArray(const std::string &str) {
+    
+}
 
 #endif /* KarkkainenSanders_hpp */
