@@ -7,9 +7,27 @@
 //
 
 #include <iostream>
+#include <fstream>
+
+#include "KarkkainenSanders.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    freopen("input.txt", "r", stdin);
+    std::string s;
+    std::cin >> s;
+    std::vector<uint32> v = KarkkainenSanders::getSuffixArray(s);
+    for (auto a: v) {
+        std::cout << a << " ";
+    }
+    std::cout << "\n";
+//
+//    std::vector<uint32> array = {1, 4, 2, 3, 5};
+//    std::vector<uint32> suffixes = {3, 0, 1, 2};
+//    
+//    KarkkainenSanders::suffixRadixSort(array, suffixes, 2);
+//    
+//    for (auto suffix: suffixes)
+//        std::cout << suffix << " " << array[suffix] << " " << KarkkainenSanders::getByIndex(array, suffix + 1) << "\n";
+//    std::cout << "\n";
     return 0;
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505B883B1C0CA95500F0F806 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 505B883A1C0CA94000F0F806 /* input.txt */; };
 		50C6E3451C0AF7C900333F1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50C6E3441C0AF7C900333F1C /* main.cpp */; };
 		50C6E34F1C0AF9E600333F1C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50C6E34E1C0AF9E600333F1C /* README.md */; };
 /* End PBXBuildFile section */
@@ -14,16 +15,18 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		50C6E33F1C0AF7C900333F1C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				505B883B1C0CA95500F0F806 /* input.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		505B883A1C0CA94000F0F806 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		50C6E3411C0AF7C900333F1C /* Karkkainen-Sanders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Karkkainen-Sanders"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C6E3441C0AF7C900333F1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		50C6E34C1C0AF84800333F1C /* KarkkainenSanders.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KarkkainenSanders.hpp; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		50C6E3381C0AF7C900333F1C = {
 			isa = PBXGroup;
 			children = (
+				505B883A1C0CA94000F0F806 /* input.txt */,
 				50C6E34C1C0AF84800333F1C /* KarkkainenSanders.hpp */,
 				50C6E34E1C0AF9E600333F1C /* README.md */,
 				50C6E3431C0AF7C900333F1C /* Karkkainen-Sanders */,
@@ -243,6 +247,7 @@
 				50C6E34A1C0AF7C900333F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
